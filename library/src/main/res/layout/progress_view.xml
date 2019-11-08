@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/content_view"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="#CC000000">
+	
+	<LinearLayout
+		android:id="@+id/alert_view"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_centerInParent="true"
+		android:background="#000000"
+		android:orientation="vertical"
+		android:padding="20dp">
+		
+		<ProgressBar
+			android:id="@+id/spinner_view"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center_horizontal" />
+		
+		<TextView
+			android:id="@+id/text_label"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="15dp"
+			android:gravity="center_horizontal"
+			android:text="This is a placeholder message."
+			android:textColor="#FFFFFF"
+			android:textSize="18sp" />
+	</LinearLayout>
+</RelativeLayout>
